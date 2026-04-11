@@ -23,7 +23,7 @@ The goal is to identify and segment regions of interest (such as lung structures
 ## Results
 
 ### Input Image
-![Input](input_images/sample1.png)
+![Input](input_images/input.png)
 
 ### U-Net Output
 ![U-Net Output](output_images/unet_output.png)
