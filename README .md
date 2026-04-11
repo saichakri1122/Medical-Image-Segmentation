@@ -23,13 +23,13 @@ The goal is to identify and segment regions of interest (such as lung structures
 ## Results
 
 ### Input Image
-[Input](input_images/input.png)
+![Input](input_images/sample1.png)
 
 ### U-Net Output
-[U-Net Output](output_images/unet_output.png)
+![U-Net Output](output_images/unet_output.png)
 
 ### MedSAM Output
-[MedSAM Output](output_images/medsam_output.png)
+![MedSAM Output](output_images/medsam_output.png)
 
 ## Observations
 The model demonstrates initial segmentation capability by identifying regions of interest. While results are not perfect, they show the effectiveness of combining deep learning with prompt-based segmentation techniques.
