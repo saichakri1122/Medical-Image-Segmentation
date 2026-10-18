@@ -1,51 +1,72 @@
-# Medical Image Segmentation using U-Net and MedSAM (REESEARCH Project)
+# Medical Image Segmentation Using U-Net and MedSAM
+### Research Project
 
-## Overview
-This project focuses on medical image segmentation of CT scan images using deep learning techniques. It combines U-Net for initial segmentation and MedSAM for prompt-based refinement.
+**📄 Published Research Paper:** [Read the Research Paper]((https://www.taylorfrancis.com/chapters/edit/10.1201/9781042004607-49/benchmarking-medsam-cnn-net-organ-wise-medical-image-segmentation-girija-avula-venkata-naga-venu-nagaruru-rohankumar-reddy-sai-chakri-srihari))
 
-## Objective
-The goal is to identify and segment regions of interest (such as lung structures or abnormalities) from CT images to assist in medical analysis.
+## 📌 Overview
+This project explores medical image segmentation using deep learning techniques. It combines **U-Net** for initial image segmentation with **MedSAM (Medical Segment Anything Model)** for prompt-based refinement of segmentation results on CT scan images.
 
-## Methodology
-1. Preprocessed CT scan images
-2. Applied U-Net model for initial segmentation
-3. Used MedSAM for prompt-based segmentation refinement
-4. Visualized and compared outputs
+## 🎯 Objectives
+- Identify and segment regions of interest in medical CT images.
+- Apply U-Net for initial segmentation.
+- Explore MedSAM for prompt-based segmentation refinement.
+- Visualize and compare segmentation outputs.
 
-## Technologies Used
-- Python
-- PyTorch
-- NumPy
-- Matplotlib
-- MedSAM
+## ⚙️ Methodology
+1. Preprocessed CT scan images for model input.
+2. Applied U-Net to generate initial segmentation masks.
+3. Used MedSAM for prompt-based segmentation refinement.
+4. Visualized and compared the input images and segmentation results.
 
+## 🛠️ Technologies Used
+- **Language:** Python
+- **Deep Learning:** PyTorch
+- **Numerical Computing:** NumPy
+- **Visualization:** Matplotlib
+- **Segmentation Models:** U-Net and MedSAM
 
-## Results
+## 📊 Results
 
 ### Input Image
-![Input](./input.png)
+![Input CT Image](./input.png)
 
-### U-Net Output
-![U-Net Output](./unet_output.png)
+### U-Net Segmentation Output
+![U-Net Segmentation Output](./unet_output.png)
 
-### MedSAM Output
-![MedSAM Output](./medsam_output.png)
+### MedSAM Segmentation Output
+![MedSAM Segmentation Output](./medsam_output.png)
 
-## Observations
-The model demonstrates initial segmentation capability by identifying regions of interest. While results are not perfect, they show the effectiveness of combining deep learning with prompt-based segmentation techniques.
+## 🔍 Observations
+The project demonstrates an approach to identifying regions of interest in CT images through deep learning-based segmentation. Combining U-Net with MedSAM enables exploration of initial segmentation and prompt-based refinement. The results also highlight opportunities to improve segmentation quality through further training and evaluation.
 
-## Limitations
-- Limited training data
-- Model requires further tuning for higher accuracy
+## ⚠️ Limitations
+- Limited training data may affect generalization.
+- Segmentation quality depends on preprocessing, model configuration, and prompt selection.
+- Further quantitative evaluation and model tuning are required.
 
-## Future Improvements
-- Improve model training with larger dataset
-- Enhance segmentation accuracy
-- Deploy model for real-time usage
+## 🚀 Future Improvements
+- Train and evaluate using larger, more diverse datasets.
+- Improve segmentation accuracy using appropriate evaluation metrics.
+- Optimize inference performance.
+- Explore deployment through a user-friendly application.
 
-## How to Run
-1. Install required libraries:
-   pip install -r requirements.txt
+## 💻 How to Run
 
-2. Run the inference script:
-   python inference.py
+### 1. Clone the Repository
+```bash
+git clone YOUR_GITHUB_REPOSITORY_URL
+cd YOUR_REPOSITORY_FOLDER
+```
+
+### 2. Install Dependencies
+```bash
+pip install -r requirements.txt
+```
+
+### 3. Run Inference
+```bash
+python inference.py
+```
+
+## ⚕️ Disclaimer
+This project is intended for research and educational purposes only. Its outputs should not be used as a substitute for professional medical evaluation or clinical diagnosis.
