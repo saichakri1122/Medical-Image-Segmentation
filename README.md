@@ -1,7 +1,7 @@
 # Medical Image Segmentation Using U-Net and MedSAM
 ### Research Project
 
-**📄 Published Research Paper:** [Read the Research Paper]((https://www.taylorfrancis.com/chapters/edit/10.1201/9781042004607-49/benchmarking-medsam-cnn-net-organ-wise-medical-image-segmentation-girija-avula-venkata-naga-venu-nagaruru-rohankumar-reddy-sai-chakri-srihari))
+**📄 Published Research Paper:** [Read the Research Paper]([https://www.taylorfrancis.com/chapters/edit/10.1201/9781042004607-49/benchmarking-medsam-cnn-net-organ-wise-medical-image-segmentation-girija-avula-venkata-naga-venu-nagaruru-rohankumar-reddy-sai-chakri-srihari])
 
 ## 📌 Overview
 This project explores medical image segmentation using deep learning techniques. It combines **U-Net** for initial image segmentation with **MedSAM (Medical Segment Anything Model)** for prompt-based refinement of segmentation results on CT scan images.
