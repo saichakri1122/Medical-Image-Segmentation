@@ -1,4 +1,4 @@
-# Medical Image Segmentation using U-Net and MedSAM
+# Medical Image Segmentation using U-Net and MedSAM (REESEARCH Project)
 
 ## Overview
 This project focuses on medical image segmentation of CT scan images using deep learning techniques. It combines U-Net for initial segmentation and MedSAM for prompt-based refinement.
